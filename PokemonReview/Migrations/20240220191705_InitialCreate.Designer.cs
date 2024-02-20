@@ -12,7 +12,7 @@ using PokemonReview.Data;
 namespace PokemonReview.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240213005607_InitialCreate")]
+    [Migration("20240220191705_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -105,7 +105,7 @@ namespace PokemonReview.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Pokemons");
+                    b.ToTable("Pokemon");
                 });
 
             modelBuilder.Entity("PokemonReview.Models.PokemonCategory", b =>

@@ -103,7 +103,7 @@ namespace PokemonReview.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Pokemons");
+                    b.ToTable("Pokemon");
                 });
 
             modelBuilder.Entity("PokemonReview.Models.PokemonCategory", b =>
