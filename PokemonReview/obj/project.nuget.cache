@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "tteYU/0XTB6iVAGCnUwEFTtcByNunwrrd38kohHGyieklup8NhNZO4PEhgmkoYAiBoYdzJzGB5km1nb6HdPRJQ==",
+  "dgSpecHash": "BCyA0D98VEc1vU+JxL8hls9bDTJNOJCchjMMB23t454hFtyh48t5tOu4iTvHFp+TtYQWnusx9jUOBZxIqKIozA==",
   "success": true,
   "projectFilePath": "/home/marvell/Documents/Code/C#/PokemonReview/PokemonReview/PokemonReview.csproj",
   "expectedPackageFiles": [
+    "/home/marvell/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/marvell/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/home/marvell/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
-    "/home/marvell/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/home/marvell/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/marvell/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/home/marvell/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "/home/marvell/.nuget/packages/microsoft.entityframeworkcore/6.0.26/microsoft.entityframeworkcore.6.0.26.nupkg.sha512",

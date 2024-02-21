@@ -61,3 +61,5 @@
 /home/marvell/Documents/Code/C#/PokemonReview/PokemonReview/obj/Debug/net6.0/ref/PokemonReview.dll
 /home/marvell/Documents/Code/C#/PokemonReview/PokemonReview/obj/Debug/net6.0/PokemonReview.pdb
 /home/marvell/Documents/Code/C#/PokemonReview/PokemonReview/obj/Debug/net6.0/PokemonReview.genruntimeconfig.cache
+/home/marvell/Documents/Code/C#/PokemonReview/PokemonReview/bin/Debug/net6.0/AutoMapper.dll
+/home/marvell/Documents/Code/C#/PokemonReview/PokemonReview/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
