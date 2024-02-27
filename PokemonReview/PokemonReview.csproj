@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- <Compile Remove="Helper/MappingProfiles.cs" /> -->
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.26">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -22,11 +18,15 @@
 
   <ItemGroup>
     <Folder Include="Controllers/Dto/" />
-    <Folder Include="Interfaces/" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="Helper/MappingProfiles.cs" />
+    <None Include="Interfaces/ICategoryRepository.cs" />
+    <None Include="Interfaces/ICountryRepository.cs" />
+    <None Include="Interfaces/IOwnerRepository.cs" />
+    <None Include="Interfaces/IReviewerRepository.cs" />
+    <None Include="Interfaces/IReviewRepository.cs" />
   </ItemGroup>
 
 </Project>

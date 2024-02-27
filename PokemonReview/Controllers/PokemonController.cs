@@ -4,7 +4,7 @@ using PokemonReview.Interfaces;
 using PokemonReview.Models;
 using PokemonReview.Dto;
 
-namespace PokemonReview.ControllersP
+namespace PokemonReview.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -35,7 +35,6 @@ namespace PokemonReview.ControllersP
         [HttpGet("{pokeId}")]
         [ProducesResponseType(200, Type =typeof(Pokemon))]
         [ProducesResponseType(400)]
-
         public IActionResult GetPokemon(int pokeId)
         {
             if (!_pokemonRepository.PokemonExists(pokeId))
@@ -56,7 +55,6 @@ namespace PokemonReview.ControllersP
         [HttpGet("{pokeId}/rating")]
         [ProducesResponseType(200, Type =typeof(decimal))]
         [ProducesResponseType(400)]
-
         public IActionResult GetPokemonRating(int pokeId)
         {
             if (!_pokemonRepository.PokemonExists(pokeId))
