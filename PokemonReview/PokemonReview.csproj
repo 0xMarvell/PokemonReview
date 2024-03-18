@@ -16,9 +16,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
-  <ItemGroup>
+  <!-- <ItemGroup>
     <Folder Include="Controllers/Dto/" />
-  </ItemGroup>
+  </ItemGroup> -->
 
   <ItemGroup>
     <None Include="Helper/MappingProfiles.cs" />

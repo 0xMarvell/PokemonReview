@@ -2535,7 +2535,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/marvell/.dotnet/sdk/6.0.419/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.419/RuntimeIdentifierGraph.json"
       }
     }
   }
