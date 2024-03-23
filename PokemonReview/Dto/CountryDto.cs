@@ -5,4 +5,9 @@ namespace PokemonReview.Dto
         public int Id { get; set; }
         public string Name { get; set; }
     }
+
+    public class CreateCountryDto
+    {
+        public string Name { get; set; }
+    }
 }

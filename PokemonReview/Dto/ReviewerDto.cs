@@ -6,4 +6,10 @@ namespace PokemonReview.Dto
         public string FirstName { get; set; }
         public string LastName { get; set; }
     }
+
+    public class CreateReviewerDto
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+    }
 }

@@ -6,4 +6,10 @@ namespace PokemonReview.Dto
         public string Name { get; set; }
         public DateTime BirthDate { get; set; }
     }
+
+    public class CreatePokemonDto
+    {
+        public string Name { get; set; }
+        public DateTime BirthDate { get; set; }
+    }
 }
